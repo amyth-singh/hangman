@@ -6,7 +6,8 @@ print(word)
 
 guess = input("Enter a single letter: ")
 
-if (len(guess) > 1) or (guess.isnumeric()):
-    print("Oops! That is not a valid input")
-else:
+if (guess.isalpha() == True) and (len(guess) == 1):
     print("Good guess!")
+else:
+    print("Oops! That is not a valid input")
+
