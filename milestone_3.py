@@ -11,7 +11,7 @@ def check_guess(guess):
     print(f"Sorry, {guess} is not in the word")
 
 def ask_for_input():
-  while(True):
+  while True:
     guess = input("Guess a letter: ")
     check_guess(guess)
     if (guess.isalpha() == True) and (len(guess) == 1):
