@@ -18,6 +18,7 @@ def ask_for_input():
         break
     else:
         print("Invalid letter. Please, enter a single alphabetical character.")
-    return ask_for_input()
+        break
+  return ask_for_input()
 
 ask_for_input()
