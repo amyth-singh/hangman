@@ -1,7 +1,7 @@
-import random           # Import 'random' module from Python
+import random
 
-word_list = ["apple", "kiwi", "orange", "guava", "plum"] # Variable with list of items to randamise from
-word = (random.choice(word_list)) # 'choice' method applied on variable to randomise
+word_list = ["apple", "kiwi", "orange", "guava", "plum"]
+word = (random.choice(word_list))
 
 def check_guess(guess):
   guess.lower()
