@@ -1,13 +1,7 @@
-class Car():
-    def __init__(self, make, model, year, color):
-        self.make = make
-        self.model = model
-        self.year = year
-        self.color = color
-    def drive(self):
-        print("This "+self.model+" is driving")
-    def stop(self):
-        print("This "+self.model+" is stopped")
-
-car_1 = Car("Tata", "Indica", 2010, "White")
-car_1.stop()
+class Hangman:
+    def __init__(self, word_list, num_lives=5):
+        self.word_list = word_list
+        self.num_lives = num_lives
+        self.word_guessed = word_guessed
+        self.num_letters = num_letters
+        self.list_of_guesses = list_of_guesses
