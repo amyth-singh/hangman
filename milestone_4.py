@@ -25,7 +25,7 @@ class Hangman:
         print("Invalid letter. Please enter a single alphabetical character.")
         break
       elif (guess in self.list_of_guesses):
-        print("You already tried that letter")
+        print("You already tried that letter!")
       else:
         self.check_guess(guess)
         break
