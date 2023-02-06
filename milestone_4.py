@@ -26,7 +26,7 @@ class Hangman:
       elif (guess in self.list_of_guesses):
         print("You already tried that letter")
       else:
-        check_guess(guess)
+        self.check_guess(guess)
 
 a = Hangman(["apple", "plum"])
 print(a.check_guess("a"))
