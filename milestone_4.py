@@ -21,6 +21,7 @@ class Hangman:
         if i == self.word.index(guess):
           self.word_guessed[i]=guess
           print(self.word_guessed)
+    else:
       self.num_lives -= 1
     self.list_of_guesses.append(guess)
 
