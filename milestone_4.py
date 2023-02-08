@@ -36,4 +36,4 @@ class Hangman:
         break
 
 hangman_game = Hangman(["apple", "plum"])
-print(hangman_game.check_guess("p"))
+print(hangman_game.ask_for_input())
