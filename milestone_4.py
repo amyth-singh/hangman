@@ -20,8 +20,8 @@ class Hangman:
       for i in range(len(self.word)):
         if self.word[i] == guess:
           self.word_guessed[i]=guess
-        self.num_letters -= 1
-      print(self.word_guessed)
+    self.num_letters -= 1
+    print(self.word_guessed)
     self.list_of_guesses.append(guess)    
 
   def ask_for_input(self):
