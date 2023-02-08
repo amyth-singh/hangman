@@ -41,4 +41,3 @@ class Hangman:
 
 hangman_game = Hangman(["apple", "plum"])
 print(hangman_game.ask_for_input())
-print(hangman_game.num_lives)
