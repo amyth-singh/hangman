@@ -18,10 +18,10 @@ class Hangman:
     if guess in self.word:
       print(f"Good guess! {guess} is in the word.")
     self.list_of_guesses.append(guess)
-    for i in range(len(self.word_guessed)):
-      word_index = self.word.index(guess)
-      if i == word_index:
-        self.word_guessed[i]=guess
+    #for i in range(len(self.word_guessed)):
+      #word_index = self.word.index(guess)
+      #if i == word_index:
+        #self.word_guessed[i]=guess
 
   def ask_for_input(self):
     while True:
