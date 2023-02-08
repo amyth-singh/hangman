@@ -39,6 +39,3 @@ class Hangman:
       else:
         self.check_guess(guess)
         break
-
-hangman_game = Hangman(["apple", "plum"])
-print(hangman_game.ask_for_input())
