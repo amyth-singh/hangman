@@ -40,8 +40,6 @@ class Hangman:
         self.check_guess(guess)
         break
 
-
-
 def play_game(word_list, num_lives=5):
     num_lives=5
     game = Hangman(word_list, num_lives)
